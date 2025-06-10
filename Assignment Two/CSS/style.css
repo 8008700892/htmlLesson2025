@@ -1,0 +1,185 @@
+body{
+    background-color: #e3e3de;
+    margin: 0px;
+    width: 1920px;
+    height: 1080px;
+}
+h1,h2{
+    font-family: sans-serif;
+}
+a {
+    font-family: sans-serif;
+    font-size: 1.2em;
+}
+/*Header styling, plan to have logo about 25% of the screen and h1 next to it at 75% */
+header{
+    height: 300px;
+    background-color: #e3e3de;
+}
+header > div{
+    width: auto;
+    height: 300px;
+    float: left;
+    padding-left: 100px;
+}
+header > div > a > img{
+    width: auto;
+    height: 100%; /* makes the image height the same as the div above it*/
+}
+header > section > h1{
+    margin: 0px;
+    padding-left: 532px;
+    padding-top: 75px;
+    font-size: 100px;
+    color: steelblue;
+}
+header > section > h2{
+    padding-left: 850px;
+    font-size: 50px;
+    color:cadetblue;
+}
+main {
+    background-color: lightsteelblue;
+}
+main > section > div > img {
+    height: 300px;
+    float: left;
+    padding-top: 80px;
+    padding-left: 50px;
+
+}
+main > section + section > div > img {
+    clear: left;
+    padding-left: 150px;
+}
+
+main > section + section + section > form{
+    padding-left: 800px;
+    padding-top: 20px;
+}
+/*Select a size*/
+main > section + section + section > form > div > label{
+    font-size: 30px;
+    padding-left: 65px;
+}
+main > section + section + section > form > div + div{
+    padding-bottom: 20px;
+}
+/*Select a size radio options*/
+main > section + section + section > form > div + div > label{
+    font-size: 20px;
+    padding-left: 0px;
+}
+/* Pick your dough*/
+main > section + section + section > form > div + div + div > label{
+    font-size: 30px;
+    padding-left: 65px;
+
+}
+main > section + section + section > form > div + div + div{
+    padding-bottom: 0;
+}
+/* Pick your dough radio */
+main > section + section + section > form > div + div + div + div{
+    padding-bottom: 20px;
+}
+main > section + section + section > form > div + div + div + div > label{
+    font-size: 20px;
+    padding-left: 0;
+}
+/* Choose Sauce Amount (all you do is add one more div as the previous one and take away label for the next line*/
+main > section + section + section > form > div + div + div + div + div > label{
+    font-size: 30px;
+    padding-left: 65px;
+}
+main > section + section + section > form > div + div + div + div + div{
+    padding-bottom: 0;
+}
+/* Choose your sauce amount radio ( all you do is add two divs to each */
+main > section + section + section > form > div + div + div + div + div + div{
+    padding-bottom: 20px;
+}
+main > section + section + section > form > div + div + div + div + div + div > label{
+    font-size: 20px;
+    padding-left: 0;
+}
+/* Select cheese amount (all you do is add one more div as the previous one and take away label for the next line*/
+main > section + section + section > form > div + div + div + div + div + div + div> label{
+    font-size: 30px;
+    padding-left: 65px;
+}
+main > section + section + section > form > div + div + div + div + div + div + div {
+    padding-bottom: 0;
+}
+/* Select cheese amount radio ( all you do is add one divs to each for whats on top*/
+main > section + section + section > form > div + div + div + div + div + div + div + div{
+    padding-bottom: 20px;
+}
+main > section + section + section > form > div + div + div + div + div + div + div + div > label{
+    font-size: 20px;
+    padding-left: 0;
+}
+/* Pick Your meat toppings (all you do is add two more div as the previous one and take away label for the next line*/
+main > section + section + section > form > div + div + div + div + div + div + div + div + div > label{
+    font-size: 30px;
+    padding-left: 65px;
+}
+main > section + section + section > form > div + div + div + div + div + div + div + div + div {
+    padding-bottom: 0;
+}
+/* Pick your meat toppings radio ( all you do is add one divs to each for whats on top*/
+main > section + section + section > form > div + div + div + div + div + div + div + div + div + div{
+    padding-bottom: 20px;
+}
+main > section + section + section > form > div + div + div + div + div + div + div + div + div + div > label {
+    font-size: 20px;
+    padding-left: 0;
+}
+/* Pick Your Veggie toppings (all you do is add two more div as the previous one and take away label for the next line*/
+main > section + section + section > form > div + div + div + div + div + div + div + div + div + div + div > label{
+    font-size: 30px;
+    padding-left: 65px;
+}
+main > section + section + section > form > div + div + div + div + div + div + div + div + div + div + div {
+    padding-bottom: 0;
+}
+/* Pick your veggie toppings radio ( all you do is add one divs to each for whats on top*/
+main > section + section + section > form > div + div + div + div + div + div + div + div + div + div + div + div{
+    padding-bottom: 20px;
+}
+main > section + section + section > form > div + div + div + div + div + div + div + div + div + div + div + div > label {
+    font-size: 20px;
+    padding-left: 0;
+}
+/* Order Method (all you do is add two more div as the previous one and take away label for the next line*/
+main > section + section + section > form > div + div + div + div + div + div + div + div + div + div + div + div + div > label{
+    font-size: 30px;
+    padding-left: 65px;
+}
+main > section + section + section > form > div + div + div + div + div + div + div + div + div + div + div + div + div {
+    padding-bottom: 0;
+}
+/* Order Method radio ( all you do is add one divs to each for whats on top*/
+main > section + section + section > form > div + div + div + div + div + div + div + div + div + div + div + div + div + div{
+    padding-bottom: 20px;
+}
+main > section + section + section > form > div + div + div + div + div + div + div + div + div + div + div + div + div + div > label {
+    font-size: 20px;
+    padding-left: 0;
+}
+/* Enter your details (all you do is add two more div as the previous one and take away label for the next line*/
+main > section + section + section > form > div + div + div + div + div + div + div + div + div + div + div + div + div + div + div > label{
+    font-size: 30px;
+    padding-left: 65px;
+}
+main > section + section + section > form > div + div + div + div + div + div + div + div + div + div + div + div + div + div + div {
+    padding-bottom: 0;
+}
+/* First name last name text box ( all you do is add one divs to each for whats on top*/
+main > section + section + section > form > div + div + div + div + div + div + div + div + div + div + div + div + div + div + div + div{
+    padding-bottom: 20px;
+}
+main > section + section + section > form > div + div + div + div + div + div + div + div + div + div + div + div + div + div + div + div > label {
+    font-size: 20px;
+    padding-left: 0;
+}

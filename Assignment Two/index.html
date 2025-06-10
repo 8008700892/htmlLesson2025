@@ -1,0 +1,154 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="description" content="Georgian Pizza Order a Pizza Online">
+        <meta name="robots" content="noindex, nofollow">
+        <title>Online Order | Georgian Pizza</title>
+        <!-- adding link to css sheet for styling-->
+        <link rel="stylesheet" href="./CSS/style.css">
+    </head>
+    <body>
+    <header>
+        <!--Using div as logo container-->
+        <div>
+            <a href="index.html">
+                <img src="./imgs/pizzaLogo.jpg" alt="pizza logo">
+            </a>
+        </div>
+        <section> <!-- This section contains our main header and subheading -->
+            <h1>Welcome to Georgian Pizza</h1>
+            <h2>Begin your online order</h2>
+        </section>
+        <!-- Menu not required yet but it would go here inside a nav -->
+    </header>
+    <main>
+    <!-- Inserting images before the form, will reformat in css file -->
+        <section>
+            <div>
+                <img src="./imgs/pizza1.jpg" alt="pizza image one">
+            </div>
+        </section>
+        <section>
+            <div>
+                <img src="./imgs/pizza2.jpg" alt="pizza image two">
+            </div>
+        </section>
+        <section> <!-- This section will contain the form for our options -->
+            <form action="somephpfile.php" method="post">
+                <div>
+                <label>Select a Size</label> <!-- Label for Select a Size -->
+                </div>
+                <!-- Size options using radio -->
+                <div>
+                <input type="radio" id="small" name="size" value="Small">
+                <label for="small">Small</label>
+                    <input type="radio" id="medium" name="size" value="Medium">
+                    <label for="medium">Medium</label>
+                    <input type="radio" id="large" name="size" value="Large">
+                    <label for="large">Large</label>
+                    <input type="radio" id="xl" name="size" value="XL">
+                    <label for="xl">XL</label>
+                </div>
+                <div>
+                    <label>Pick Your Dough</label> <!-- Dough label -->
+                </div>
+                <!-- Dough Options using radio -->
+                <div>
+                    <input type="radio" id="regular" name="dough" value="Regular">
+                    <label for="regular">Regular</label>
+                    <input type="radio" id="thin" name="dough" value="Thin Crust">
+                    <label for="thin">Thin Crust</label>
+                    <input type="radio" id="thick" name="dough" value="Thick Crust">
+                    <label for="thick">Thick Crust</label>
+                </div>
+                <div>
+                    <label>Choose Sauce Amount</label> <!-- Sauce label -->
+                </div>
+                <!-- Sauce Amount options using radio -->
+                <div>
+                    <input type="radio" id="lsauce" name="sauce" value="Light">
+                    <label for="lsauce">Light</label>
+                    <input type="radio" id="rsauce" name="sauce" value="Regular">
+                    <label for="rsauce">Regular</label>
+                    <input type="radio" id="hsauce" name="sauce" value="Heavy">
+                    <label for="hsauce">Heavy</label>
+                </div>
+                <div>
+                    <label>Select Cheese Amount</label> <!-- Cheese label -->
+                </div>
+                <!-- Cheese amount options using radio -->
+                <div>
+                    <input type="radio" id="lcheese" name="cheese" value="Light">
+                    <label for="lcheese">Light</label>
+                    <input type="radio" id="rcheese" name="cheese" value="Regular">
+                    <label for="rcheese">Regular</label>
+                    <input type="radio" id="hcheese" name="cheese" value="Heavy">
+                    <label for="hcheese">Heavy</label>
+                </div>
+                <div>
+                    <label>Pick Your Meat Toppings</label> <!-- Meat Toppings Label -->
+                </div>
+                <!-- Topping options using check box -->
+                <div>
+                    <input type="checkbox" id="pepperoni" name="pepperoni" value="Pepperoni">
+                    <label for="pepperoni">Pepperoni</label>
+                    <input type="checkbox" id="sausage" name="sausage" value="Sausage">
+                    <label for="sausage">Sausage</label>
+                    <input type="checkbox" id="chicken" name="chicken" value="Chicken">
+                    <label for="chicken">Chicken</label>
+                    <input type="checkbox" id="bacon" name="bacon" value="Bacon">
+                    <label for="bacon">Bacon</label>
+                    <input type="checkbox" id="beef" name="beef" value="Beef">
+                    <label for="beef">Beef</label>
+                </div>
+                <div>
+                    <label>Pick Your Veggie Toppings</label> <!-- Veggie Toppings Label -->
+                </div>
+                <!-- Topping options using check box -->
+                <div>
+                    <input type="checkbox" id="olives" name="olives" value="Olives">
+                    <label for="olives">Olives</label>
+                    <input type="checkbox" id="peppers" name="peppers" value="Peppers">
+                    <label for="peppers">Peppers</label>
+                    <input type="checkbox" id="onions" name="onions" value="Onions">
+                    <label for="onions">Onions</label>
+                    <input type="checkbox" id="pineapple" name="pineapple" value="Pineapple">
+                    <label for="pineapple">Pineapple</label>
+                    <input type="checkbox" id="mushrooms" name="mushrooms" value="Mushrooms">
+                    <label for="mushrooms">Mushrooms</label>
+                    <input type="checkbox" id="garlic" name="garlic" value="Garlic">
+                    <label for="garlic">Garlic</label>
+                </div>
+                <div>
+                    <label>Order Method</label> <!-- order method label-->
+                </div>
+                <div>
+                    <input type="radio" id="delivery" name="method" value="Delivery">
+                    <label for="delivery">Delivery</label>
+                    <input type="radio" id="pickup" name="method" value="Pick Up">
+                    <label for="pickup">Pick Up</label>
+                </div>
+                <div>
+                    <label>Enter Your Details</label> <!-- details label -->
+                </div>
+                <!-- text, email, and submit -->
+                <div>
+
+                    <label for="firstname">First name:</label>
+                    <input type="text" id="firstname" name="firstname">
+                    <label for="lastname">Last name:</label>
+                    <input type="text" id="lastname" name="lastname">
+                </div>
+
+                <div>
+                    <label for="email">Enter your email:</label>
+                    <input type="email" id="email" name="email">
+                    <input type="submit" value="Submit">
+                </div>
+            </form>
+        </section>
+    </main>
+    </body>
+</html>
