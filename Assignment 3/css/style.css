@@ -1,0 +1,105 @@
+* {
+    margin: 0px;
+    padding: 0px;
+
+}
+h1{
+    font-family: "Arial Black", sans-serif;
+    padding-left: 20px;
+}
+h2{
+    font-family: "Tahoma", sans-serif;
+}
+li{
+    font-family: "Georgia", serif;
+    font-size: 20px;
+    font-style: italic;
+}
+header {
+background-color: #eaeeeb;
+}
+
+/*Comparing the og poster and og poster with no text styling section, 2 columns side by side*/
+.compare{
+
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: start;
+    background-color: lightgray;
+
+}
+.compare div{
+    text-align: center;
+
+}
+/*making all images same size*/
+.compare img,
+.recreation img {
+    max-width: 100%;
+    width: 600px;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+}
+/* Styling the movie poster recreation section*/
+.recreation{
+    padding: 20px;
+    align-items: center;
+    background-color: #eaeeeb;
+}
+
+.recreation div{
+    position: relative;
+    width: fit-content;
+    margin: 0 auto;
+}
+
+.recreation h2{
+    text-align: center;
+    font-size: 25px;
+}
+/*Styling the text part of the recreation */
+#actors, #tag, #director, #title, #date{
+    position: absolute;
+    color: #eaeeeb;
+    width: 100%;
+    text-align: center;
+    font-family: Arial, sans-serif;
+    margin: 0px;
+    padding: 0px;
+}
+#actors{
+    top: 10%;
+    font-size: 16px;
+    letter-spacing: 4px;
+    font-weight: lighter;
+}
+#tag{
+    top: 50%;
+    font-size: 18px;
+    font-weight: lighter;
+    letter-spacing: 5px;
+    padding-left: 10px;
+
+}
+#director{
+    top: 83%;
+    font-size: 10px;
+    letter-spacing: 3px;
+    font-weight: 50;
+}
+#title{
+    font-family: "Garamond", serif;
+    top: 85%;
+    font-size: 50px;
+    letter-spacing: 40px;
+    padding-left: 20px;
+    font-weight: 100;
+
+}
+#date{
+    bottom: 2%;
+    font-size: 16px;
+    font-weight: bold;
+}
+
