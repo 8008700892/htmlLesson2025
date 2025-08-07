@@ -1,0 +1,67 @@
+<!doctype html>
+<!--Contact PAGE-->
+<html lang="en">
+<head id="head">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Contact Page">
+    <!--    right now no index no follow because we are building the site and don't want traffic-->
+    <meta name="robots" content="noindex, nofollow">
+    <title>Contact</title>
+    <link rel="stylesheet" href="css/style.css">
+    <!--    jQuery link -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <!--    link to js file-->
+    <script src="js/custom.js"></script>
+
+</head>
+<body class="contact">
+<div id="header"></div>
+<main class="contact-container">
+<div class="contact-first-wrapper">
+    <h1>You can contact us by calling or using the form below</h1>
+    <div class="contact-info">
+        <div class="contact-text">
+            <p>Call Support</p>
+            <p>1-800-8888</p>
+        </div>
+        <div class="contact-text">
+            <p>Headquarters Address</p>
+            <p>38 First Street, Tokyo, Japan</p>
+        </div>
+        <div class="contact-text">
+            <p>Monday - Friday</p>
+            <p>8am - 5pm</p>
+        </div>
+    </div>
+</div>
+
+    <div class="form-wrapper">
+        <h2>Inquiry</h2>
+        <form action="somephpfile.php" method="post">
+            <div class="form-section">
+                <label for="firstname">First Name:</label>
+                <input type="text" id="firstname" name="firstname">
+                <label for="lastname">Last Name:</label>
+                <input type="text" id="lastname" name="lastname">
+            </div>
+            <div class="form-section">
+                <label for="email">Enter your email:</label>
+                <input type="email" id="email" name="email">
+            </div>
+            <div class="form-section">
+                <label for="inquiry">What's the issue?</label>
+                <textarea id="inquiry" name="inquiry" rows="6" cols="50" placeholder="Write your inquiry here"></textarea>
+            </div>
+            <div class="form-section">
+                <input type="submit" value="Submit">
+            </div>
+        </form>
+    </div>
+</main>
+
+<div id="footer"></div>
+
+</body>
+
+</html>

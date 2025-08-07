@@ -1,0 +1,68 @@
+<!doctype html>
+<!--HOME PAGE-->
+<html lang="en">
+<head id="head">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Homepage for Main Project">
+<!--    right now no index no follow because we are building the site and don't want traffic-->
+    <meta name="robots" content="noindex, nofollow">
+    <title>Homepage</title>
+    <link rel="stylesheet" href="css/style.css">
+
+    <!--    jQuery link -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+<!--    link to js file-->
+    <script src="js/custom.js"></script>
+
+</head>
+
+<body id="home">
+<div id="header"></div>
+<main id="homepage">
+<!--    Intro text and slider section -->
+    <section class="intro-section">
+        <div class ="intro-text">
+            <h1>Introducing the Game Boy</h1>
+            <p>
+                Fans of Nintendo's widely acclaimed video game releases such as Super Mario Bros, The Legend of Zelda,
+                and Donkey Kong, can now enjoy that exciting Nintendo action anywhere with the new GAME BOY! A dot-matrix
+                screen plus standard controls you'll recognize, Game boy is capable of playing a wide
+                range of games using interchangeable cartridges. Powered with four "AA" batteries, the Game boy is
+                conveniently sized to fit in your pocket and portable to take with you wherever you go.
+            </p>
+        </div>
+        <div class="intro-slider">  <!-- layout positioning  -->
+            <div class="slider-1">  <!-- to target with javascript -->
+                <img src="images/ogmodel.jpg" alt="Game boy front">
+                <img src="images/ogback.jpg" alt="Game boy back">
+            </div>
+        </div>
+    </section>
+
+<!--    Slogan and slider section-->
+
+    <section class="slogan-section"> <!-- layout positioning -->
+        <h2 class="slogan-text">Now you're playing with power... PORTABLE POWER! </h2>
+
+        <div class="slider-2-wrapper">
+            <button class="slider-button-prev">&lt</button>
+
+            <div class="slider-view">
+        <div class="slider-2"> <!-- target with javascript -->
+            <img src="images/homeSlide1.jpg" alt="slider 2 image 1">
+            <img src="images/homeSlide2.jpg" alt="slider 2 image 2">
+            <img src="images/homeSlide3.jpg" alt="slider 2 image 3">
+            <img src="images/homeSlide4.jpg" alt="slider 2 image 4">
+        </div>
+            </div>
+            <button class="slider-button-next">&gt</button>
+        </div>
+    </section>
+</main>
+
+
+<div id="footer"></div>
+</body>
+
+</html>
