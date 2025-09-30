@@ -1,0 +1,67 @@
+/* Styling for form labels*/
+.form-label{
+    display: block;
+    width: 100%;
+    font-size: 1.7rem;
+    font-weight: bold;
+    background-color: #faaf90;
+    padding: 0.5rem 0;
+    border-radius: 0.25rem;
+    text-align: center;
+}
+/* Styling for form options */
+.form-check-label{
+    font-size: 1.3rem;
+    font-weight: bold;
+}
+form{
+    background-color: #d9e4ff;
+}
+/* styling for extra toppings */
+.extraToppings{
+    display: flex;
+    justify-content: space-around;
+}
+.extraToppings label{
+    font-size: 1.1rem;
+    font-weight: bold;
+}
+.extraToppings input[type="checkbox"]{
+    margin-right: 6px;
+}
+/*HEADER AND LOGO STYLING*/
+.site-header{
+    display: grid;
+    grid-template-columns: 1fr auto 1fr;
+    align-items: center;
+    background-color: #b3c7f7;
+    padding: 1rem 2rem;
+}
+.logo img{
+    width: 175px;
+    height: 175px;
+    border-radius: 0.25rem;
+}
+
+.header-text{
+    grid-column: 2;
+    text-align: center;
+    padding: 2rem;
+    border-radius: 1rem;
+    background-color: #fcc9b5;
+}
+.header-text h1{
+    font-size: 4rem;
+}
+.header-text h2{
+    font-size: 2.5rem;
+}
+/*main background color */
+main{
+    background-color: #f8f8f8;
+    min-height: 100vh;
+}
+.btn{
+    display: block;
+    margin: 0 auto;
+}
